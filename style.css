@@ -1,0 +1,276 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    padding: 15px 10px;
+}
+
+
+h3{
+    font-size: 13.5px;
+    color: #212121;
+}
+
+h2{
+    font-size: 14.5px;
+    color: #707579;
+    padding-top: 3px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+#Gmail-h{
+    padding: 10px 0px 0px 0px;
+}
+
+#Imagenes-h{
+    padding: 10px 15px 0px 0px;
+}
+
+.Iconapp {
+    width: 17px;
+    height: 17px;
+    padding: 10px 15px 0px 0px;
+}
+    
+.Login{
+    width: 140px;
+    height: 38px;
+}
+
+#Loghov{
+    width: 140px;
+    height: 38px;
+}
+
+#box{
+    display:flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.item{
+        margin: 0 10px;
+  }
+
+.hoverimg:nth-of-type(2){
+    display: none;
+}
+
+.hovfx:hover .hoverimg:nth-of-type(1){
+    display: none;
+}
+
+.hovfx:hover .hoverimg:nth-of-type(2){
+    display: block;
+}
+
+.hovfx:hover {
+    cursor: pointer;
+}
+
+#logo{
+    width: 272px;
+    height: 92px;
+}
+
+.divlogo{
+    display: flex;
+    justify-content: center;
+    padding: 190px 0px 30px 0px;
+    scale: 1;
+}
+
+.buscar-icon{
+    width: 16px;
+    height: 16px;
+    margin: 15px 0px 0px 0px;
+}
+
+.barra-de-busqueda{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 50px;
+    width: 600px;
+    height: 46px;
+    transition: box-shadow .1s;
+}
+
+.barra-de-busqueda:hover {
+    box-shadow: 0 0 11px rgba(24, 24, 24, 0.2);
+}
+
+
+.btn-search {
+    height: 30px;
+    width: 420px;
+    border: 0px;
+    margin: 8px 0px 8px 0px;
+    font-size: 17.5px;
+}
+
+.btn-search:focus {
+    outline: none;
+}
+
+.buscar-voz{
+    width: 15px;
+    height: 20px;
+    margin: 13px 0px 0px 0px;
+}
+
+.buscar-imagen{
+    width: 21.5px;
+    height: 20px;
+    margin: 12px 0px 0px 0px;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+
+.botones-inferiores{
+    display: flex;
+    justify-content: center;
+}
+
+.buscador-botones{
+    padding: 30px 0px 0px 0px;
+    height: 48px;
+}
+
+.buscador-boton{
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    box-sizing: content-box;
+    border: 0px;
+    border-radius: 7px;
+    background-color: #F8F9FA;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+    transition: box-shadow .1s;
+}
+
+.buscador-boton:hover {
+    box-shadow: 0 0 11px rgba(24, 24, 24, 0.2);
+}
+
+
+#Proveedor{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+footer{
+    background-color: #F2F2F2;
+    display:block;
+    justify-content: center;
+    position:fixed;
+    bottom:0px;
+    left:0;
+    right:0;
+    height:112px;
+    color: #707579;
+}
+
+#Mexico{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+#Contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0px 18px 25px;
+    border: .5px solid rgb(180, 177, 177);
+}
+
+#Fgrupo1{
+    display: inline-flex;
+    width: 560px;
+    justify-content: space-between;
+}
+
+
+#Fgrupo2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+}
+
+
+.subheader{
+    display: flex;
+    justify-content: right;
+    padding-right: 70px;
+    padding-top: 4px;
+}
+
+
+.backlabel{
+    display: none;
+    background-color: #4f5355;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    position: relative;
+}
+
+
+.labelapp{
+    color: white;
+    font-size: 14px;
+    padding: 4.5px 0px 4px 27px;
+}
+
+.hovapp:hover + .backlabel {
+    display: block;
+    background-color: #4f5355;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+
+.vozlabel {
+    cursor: pointer;
+}
+
+.imglabel {
+    cursor: pointer;
+}
+
+.buscar-voz {
+ cursor: pointer;
+}
+
+.buscar-imagen {
+ cursor: pointer;
+}
