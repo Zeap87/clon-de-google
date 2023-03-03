@@ -9,8 +9,11 @@ body{
 }
 
 header{
+    position: relative;
     padding: 15px 10px;
 }
+
+
 
 
 h3{
@@ -52,7 +55,7 @@ a:active {
 .Iconapp {
     width: 17px;
     height: 17px;
-    padding: 10px 15px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
     
 .Login{
@@ -71,9 +74,20 @@ a:active {
     width: 100%;
 }
 
-.item{
-        margin: 0 10px;
+.item1{
+        margin: 0px -30px;
+        width: 45px;
   }
+
+  .item2{
+    margin: 0px 40px;
+    width: 45px;
+}
+
+.item3{
+    margin: 0px 0px;
+    width: 45px;
+}
 
 .hoverimg:nth-of-type(2){
     display: none;
@@ -258,7 +272,17 @@ a:active {
     border-radius: 5px;
     height: 25px;
     width: 200px;
-    position: relative;
+    position: absolute;
+    z-index: 100;
+    margin: 14px 0px 0px -90px; 
+    transition: 0s;
+}
+
+.Iconapp:hover .backlabel{
+    display: block;
+    z-index: 100;
+    position: absolute;
+    transition-delay: 2s;
 }
 
 
